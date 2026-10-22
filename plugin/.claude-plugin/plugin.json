@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "description": "Use the AMNT UI (Ink) design system: install it, pick the right part, follow its rules.",
   "author": { "name": "AMNT.IO LTD", "url": "https://amnt.io" },
-  "homepage": "https://github.com/BelgacemElbar/amnt-ui",
+  "homepage": "https://github.com/amntio/amnt-ui",
   "license": "MIT"
 }

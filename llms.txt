@@ -2,13 +2,13 @@
 
 > A free (MIT) design system for Next.js + Tailwind 3.3+ or 4: 50+ accessible React components, Material 3 colour roles, light and dark, 339 Material Symbols icons, app shells. Black and white, square corners, phone first. No component library underneath.
 
-Install: `npx amnt add` (whole kit; wires Tailwind and globals.css), or `npx amnt add button date-picker` for some parts. Parts file: https://raw.githubusercontent.com/BelgacemElbar/amnt-ui/main/public/r/ink.json
+Install: `npx amnt add` (whole kit; wires Tailwind and globals.css), or `npx amnt add button date-picker` for some parts. Parts file: https://raw.githubusercontent.com/amntio/amnt-ui/main/public/r/ink.json
 Import: `import { Button, DataTable, DatePicker } from "@/ui"`, icons from `@/ui/symbols`.
 
 ## Docs
-- [README](https://github.com/BelgacemElbar/amnt-ui/blob/main/README.md): what's inside, install, Figma
-- [AGENTS.md](https://github.com/BelgacemElbar/amnt-ui/blob/main/AGENTS.md): rules and which part to use for what
-- [Component index](https://github.com/BelgacemElbar/amnt-ui/blob/main/ui/index.ts): every export with its props types
+- [README](https://github.com/amntio/amnt-ui/blob/main/README.md): what's inside, install, Figma
+- [AGENTS.md](https://github.com/amntio/amnt-ui/blob/main/AGENTS.md): rules and which part to use for what
+- [Component index](https://github.com/amntio/amnt-ui/blob/main/ui/index.ts): every export with its props types
 
 ## Parts
 - Buttons: Button, ButtonLink, IconButton, Fab, Chip, ChipGroup

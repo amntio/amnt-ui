@@ -1,7 +1,7 @@
 # Publish the `amnt` CLI to npm with a provenance badge ("built from this repo").
 # Release: bump cli/package.json, then `git tag cli-v0.1.1 && git push --tags`.
 # One-time setup on npmjs.com → amnt → Settings → Trusted Publisher:
-# GitHub, BelgacemElbar/amnt-ui, workflow publish-cli.yml. No token needed.
+# GitHub, amntio/amnt-ui, workflow publish-cli.yml. No token needed.
 name: Publish amnt CLI
 on:
   push:

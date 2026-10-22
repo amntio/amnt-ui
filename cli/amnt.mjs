@@ -14,7 +14,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, posix } from "node:path";
 import { spawnSync } from "node:child_process";
 
-const REGISTRY = "https://raw.githubusercontent.com/BelgacemElbar/amnt-ui/main/public/r/ink.json";
+const REGISTRY = "https://raw.githubusercontent.com/amntio/amnt-ui/main/public/r/ink.json";
 const ALWAYS = ["tailwind.preset.ts", "ui/cn.ts", "ui/dom.d.ts", "ui/tokens/tokens.css", "ui/tokens/legacy.css", "ui/ui.css"];
 const CSS = ["tokens/tokens.css", "tokens/legacy.css", "ui.css"];
 
@@ -29,7 +29,7 @@ Options
   --no-install   don't install packages
   --from <file>  read parts from this file or URL instead of GitHub
 
-Docs: https://github.com/BelgacemElbar/amnt-ui`;
+Docs: https://github.com/amntio/amnt-ui`;
 
 const say = (s = "") => console.log(s);
 const fail = (s) => { console.error(`✗ ${s}`); process.exit(1); };

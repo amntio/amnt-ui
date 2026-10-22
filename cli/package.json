@@ -4,12 +4,34 @@
   "description": "Add AMNT UI (Ink), a free design system, to a Next.js + Tailwind project: npx amnt add",
   "license": "MIT",
   "author": "AMNT.IO LTD",
-  "homepage": "https://github.com/BelgacemElbar/amnt-ui",
-  "repository": { "type": "git", "url": "git+https://github.com/BelgacemElbar/amnt-ui.git", "directory": "cli" },
-  "keywords": ["design-system", "nextjs", "tailwind", "react", "components", "ui"],
+  "homepage": "https://ui.amnt.io/docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amntio/amnt-ui.git",
+    "directory": "cli"
+  },
+  "keywords": [
+    "design-system",
+    "nextjs",
+    "tailwind",
+    "react",
+    "components",
+    "ui"
+  ],
   "type": "module",
-  "bin": { "amnt": "amnt.mjs" },
-  "files": ["amnt.mjs"],
-  "engines": { "node": ">=18" },
-  "scripts": { "test": "node test.mjs" }
+  "bin": {
+    "amnt": "amnt.mjs"
+  },
+  "files": [
+    "amnt.mjs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "bugs": {
+    "url": "https://github.com/amntio/amnt-ui/issues"
+  }
 }

@@ -33,8 +33,8 @@ import { Rocket } from "@/ui/symbols";
 
 ## Safe to run
 
-- **No dependencies.** One readable file: [amnt.mjs](https://github.com/BelgacemElbar/amnt-ui/blob/main/cli/amnt.mjs).
+- **No dependencies.** One readable file: [amnt.mjs](https://github.com/amntio/amnt-ui/blob/main/cli/amnt.mjs).
 - It only writes inside your project, and never deletes a file.
-- The parts come from [github.com/BelgacemElbar/amnt-ui](https://github.com/BelgacemElbar/amnt-ui) (`public/r/ink.json`).
+- The parts come from [github.com/amntio/amnt-ui](https://github.com/amntio/amnt-ui) (`public/r/ink.json`).
 
 MIT · AMNT.IO LTD

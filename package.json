@@ -8,5 +8,13 @@
     "registry": "node scripts/build-registry.mjs",
     "figma": "node scripts/figma-tokens.mjs",
     "icons": "node scripts/icons-build.mjs"
+  },
+  "homepage": "https://ui.amnt.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amntio/amnt-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amntio/amnt-ui/issues"
   }
 }

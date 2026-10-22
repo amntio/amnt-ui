@@ -16,7 +16,7 @@ It copies the parts, wires `tailwind.config` and `globals.css` (Tailwind 3.3+ or
 
 ## 2. Build with the parts
 - Everything comes from `@/ui`; icons come from `@/ui/symbols` and are drawn with `<Icon icon={X} />`.
-- To pick the right part, read the "Picking a part" table in https://github.com/BelgacemElbar/amnt-ui/blob/main/AGENTS.md
+- To pick the right part, read the "Picking a part" table in https://github.com/amntio/amnt-ui/blob/main/AGENTS.md
 - Short version:
   - **Dates:** DatePicker or DateRangePicker
   - **Tags:** MultiSelect
