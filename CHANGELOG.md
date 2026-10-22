@@ -6,7 +6,7 @@ First public release.
 
 ### Added
 - **50+ parts** for Next.js + Tailwind: buttons, inputs, pickers, upload, data table, charts, popups, navigation, app shells, feedback, people.
-- **`npx amnt add`**: copies the parts, wires Tailwind 3.3+ or 4 and `globals.css`, installs the packages. Zero dependencies.
+- **`npx amnt-ui add`**: copies the parts, wires Tailwind 3.3+ or 4 and `globals.css`, installs the packages. Zero dependencies.
 - **Ink tokens**: colour roles for light and dark, type scale, shapes, motion.
 - **339 icons**, tree-shaken.
 - **Figma tokens** in the DTCG format.

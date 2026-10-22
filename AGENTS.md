@@ -9,13 +9,13 @@ Import every UI part from `@/ui`. Write colours as roles, never values. Phone fi
 ## 🚀 Install into a project
 
 ```bash
-npx amnt add
+npx amnt-ui add
 ```
 
 It copies the parts into `src/ui`, adds the Ink preset to `tailwind.config`, imports the 3 CSS files in `globals.css` (Tailwind 3.3+ or 4) and installs the packages. If it prints "Still to do by hand", do those steps.
 
-- Some parts only: `npx amnt add button date-picker` (brings the files they need).
-- Every part name: `npx amnt list`.
+- Some parts only: `npx amnt-ui add button date-picker` (brings the files they need).
+- Every part name: `npx amnt-ui list`.
 
 ## 🔴 Rules
 

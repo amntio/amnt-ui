@@ -2,7 +2,7 @@
 
 > A free (MIT) design system for Next.js + Tailwind 3.3+ or 4: 50+ accessible React components, Material 3 colour roles, light and dark, 339 Material Symbols icons, app shells. Black and white, square corners, phone first. No component library underneath.
 
-Install: `npx amnt add` (whole kit; wires Tailwind and globals.css), or `npx amnt add button date-picker` for some parts. Parts file: https://raw.githubusercontent.com/amntio/amnt-ui/main/public/r/ink.json
+Install: `npx amnt-ui add` (whole kit; wires Tailwind and globals.css), or `npx amnt-ui add button date-picker` for some parts. Parts file: https://raw.githubusercontent.com/amntio/amnt-ui/main/public/r/ink.json
 Import: `import { Button, DataTable, DatePicker } from "@/ui"`, icons from `@/ui/symbols`.
 
 ## Docs

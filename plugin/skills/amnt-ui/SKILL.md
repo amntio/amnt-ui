@@ -9,10 +9,10 @@ description: Build or change any UI with the AMNT UI (Ink) design system for Nex
 Look for `src/ui/index.ts`. If it's missing, install it:
 
 ```bash
-npx amnt add
+npx amnt-ui add
 ```
 
-It copies the parts, wires `tailwind.config` and `globals.css` (Tailwind 3.3+ or 4) and installs the packages. If it prints "Still to do by hand", do those steps. Only some parts: `npx amnt add button date-picker`; all names: `npx amnt list`.
+It copies the parts, wires `tailwind.config` and `globals.css` (Tailwind 3.3+ or 4) and installs the packages. If it prints "Still to do by hand", do those steps. Only some parts: `npx amnt-ui add button date-picker`; all names: `npx amnt-ui list`.
 
 ## 2. Build with the parts
 - Everything comes from `@/ui`; icons come from `@/ui/symbols` and are drawn with `<Icon icon={X} />`.

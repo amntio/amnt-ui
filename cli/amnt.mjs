@@ -2,9 +2,9 @@
 /**
  * amnt: add AMNT UI (Ink) to a Next.js + Tailwind project.
  *
- *   npx amnt add            the whole kit
- *   npx amnt add button     one part, plus the files it needs
- *   npx amnt list           every part you can add
+ *   npx amnt-ui add            the whole kit
+ *   npx amnt-ui add button     one part, plus the files it needs
+ *   npx amnt-ui list           every part you can add
  *
  * No dependencies. It reads one file (public/r/ink.json in the amnt-ui repo),
  * copies parts into <src>/ui, wires Tailwind 3 or 4 and globals.css, and
@@ -20,9 +20,9 @@ const CSS = ["tokens/tokens.css", "tokens/legacy.css", "ui.css"];
 
 const HELP = `AMNT UI (Ink): free design system for Next.js + Tailwind.
 
-  npx amnt add              add the whole kit
-  npx amnt add button table add some parts (and the files they need)
-  npx amnt list             show every part
+  npx amnt-ui add              add the whole kit
+  npx amnt-ui add button table add some parts (and the files they need)
+  npx amnt-ui list             show every part
 
 Options
   --overwrite    replace files you changed (default: keep yours)
@@ -108,7 +108,7 @@ const label = (file) => { const b = posix.basename(file).replace(/\.tsx?$/, "");
 if (cmd === "list") {
     say("Parts you can add (any name on the line works):\n");
     for (const e of parts) say(`  ${label(e.file).padEnd(18)} ${e.names.filter(isPart).join(", ")}`);
-    say("\n  npx amnt add DatePicker DataTable");
+    say("\n  npx amnt-ui add DatePicker DataTable");
     process.exit(0);
 }
 
@@ -140,7 +140,7 @@ else {
         for (const n of e.names) byName.set(norm(n), e.file);
     }
     const unknown = wanted.filter((w) => !byName.has(norm(w)));
-    if (unknown.length) fail(`No part called ${unknown.join(", ")}. See them all: npx amnt list`);
+    if (unknown.length) fail(`No part called ${unknown.join(", ")}. See them all: npx amnt-ui list`);
     pick = closure(files, [...wanted.map((w) => byName.get(norm(w))), ...ALWAYS]);
     pick.delete("ui/index.ts");
 }

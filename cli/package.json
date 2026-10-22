@@ -1,7 +1,7 @@
 {
-  "name": "amnt",
+  "name": "amnt-ui",
   "version": "0.1.0",
-  "description": "Add AMNT UI (Ink), a free design system, to a Next.js + Tailwind project: npx amnt add",
+  "description": "Add AMNT UI (Ink), a free design system, to a Next.js + Tailwind project: npx amnt-ui add",
   "license": "MIT",
   "author": "AMNT.IO LTD",
   "homepage": "https://ui.amnt.io/docs",
@@ -20,7 +20,7 @@
   ],
   "type": "module",
   "bin": {
-    "amnt": "amnt.mjs"
+    "amnt-ui": "amnt.mjs"
   },
   "files": [
     "amnt.mjs"

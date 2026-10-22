@@ -3,7 +3,7 @@
 <a href="https://ui.amnt.io">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png">
-    <img alt="AMNT UI: 50+ parts for Next.js and Tailwind. npx amnt add" src=".github/assets/banner-light.png" width="100%">
+    <img alt="AMNT UI: 50+ parts for Next.js and Tailwind. npx amnt-ui add" src=".github/assets/banner-light.png" width="100%">
   </picture>
 </a>
 
@@ -36,7 +36,7 @@ One command copies them into your project. No component library underneath.</p>
 ## ⚡ Install
 
 ```bash
-npx amnt add
+npx amnt-ui add
 ```
 
 That's the whole setup. It:
@@ -54,9 +54,9 @@ import { Rocket } from "@/ui/symbols";
 
 | Command | Does |
 | --- | --- |
-| `npx amnt add` | the whole kit |
-| `npx amnt add button date-picker` | only those parts, plus the files they need |
-| `npx amnt list` | every part name |
+| `npx amnt-ui add` | the whole kit |
+| `npx amnt-ui add button date-picker` | only those parts, plus the files they need |
+| `npx amnt-ui list` | every part name |
 
 📌 Files you changed are kept. Run it again any time to update. The tool has **zero dependencies**: one readable file, [`cli/amnt.mjs`](cli/amnt.mjs).
 

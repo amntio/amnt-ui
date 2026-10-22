@@ -1,9 +1,9 @@
-# amnt
+# amnt-ui
 
 Add **AMNT UI (Ink)**, a free design system, to a Next.js + Tailwind project.
 
 ```bash
-npx amnt add
+npx amnt-ui add
 ```
 
 ## What it does
@@ -18,9 +18,9 @@ Your own changed files are kept. Run it again any time to update.
 
 | Command | Does |
 | --- | --- |
-| `npx amnt add` | the whole kit |
-| `npx amnt add button date-picker` | some parts, plus the files they need |
-| `npx amnt list` | every part |
+| `npx amnt-ui add` | the whole kit |
+| `npx amnt-ui add button date-picker` | some parts, plus the files they need |
+| `npx amnt-ui list` | every part |
 
 Options: `--overwrite` (replace files you changed), `--no-install` (skip packages), `--from <file or URL>`.
 
