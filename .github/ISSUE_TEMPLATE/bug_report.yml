@@ -1,0 +1,31 @@
+name: 🐛 Bug report
+description: A part doesn't work the way it should.
+labels: ["bug"]
+body:
+  - type: input
+    id: part
+    attributes:
+      label: Which part?
+      placeholder: DatePicker
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, what happened instead. A screenshot helps.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      placeholder: Next.js 16, Tailwind 4, Chrome 141
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options: [Light, Dark, Phone, Desktop, Keyboard only, Screen reader]

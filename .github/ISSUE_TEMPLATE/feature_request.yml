@@ -1,0 +1,22 @@
+name: 💡 Part request
+description: Ask for a new part or a new option on one.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you need to build?
+      description: The screen or task, not the solution. "A settings page where users pick a time zone."
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would the part look like?
+      description: Props, a sketch, or a link to a part you like elsewhere.
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help?
+      options:
+        - label: I'd like to build it and open a pull request.

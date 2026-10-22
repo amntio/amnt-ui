@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Docs
+    url: https://ui.amnt.io/docs
+    about: Install steps and how each part works.
+  - name: 🧱 See every part
+    url: https://ui.amnt.io/components
+    about: Every part, working, in light and dark.
+  - name: 🔒 Security problem
+    url: https://github.com/amntio/amnt-ui/security/advisories/new
+    about: Report it privately, not in a public issue.
