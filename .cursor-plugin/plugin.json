@@ -1,0 +1,21 @@
+{
+  "name": "amnt-ui",
+  "version": "1.0.0",
+  "description": "Build accessible, phone-first Next.js interfaces with AMNT UI (Ink) and Tailwind.",
+  "author": {
+    "name": "AMNT.IO LTD"
+  },
+  "homepage": "https://ui.amnt.io/",
+  "repository": "https://github.com/amntio/amnt-ui",
+  "license": "MIT",
+  "keywords": [
+    "amnt-ui",
+    "nextjs",
+    "tailwind",
+    "accessibility",
+    "design-system"
+  ],
+  "skills": [
+    "plugin/skills/amnt-ui"
+  ]
+}
